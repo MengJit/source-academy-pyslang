@@ -546,6 +546,7 @@ const pyCmdEvaluators: { [type: string]: CmdEvaluator } = {
     for (let i = 0; i < numOfArgs; i++) {
       args.unshift(stash.pop())
     }
+    args.map(arg => typeof arg === 'bigint' ? Number(arg) : arg);
 
     // pop callable from stash
     const callable = stash.pop()

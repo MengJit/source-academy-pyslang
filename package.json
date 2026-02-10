@@ -42,8 +42,8 @@
     "prettier": "^3.7.3",
     "rimraf": "^3.0.2",
     "rollup": "^4.38.0",
-    "rollup-plugin-sourcemaps": "^0.6.3",
     "rollup-plugin-modify": "^3.0.0",
+    "rollup-plugin-sourcemaps": "^0.6.3",
     "taffydb": "^2.7.3",
     "ts-jest": "^29.0.5",
     "ts-node": "^10.9.1",
@@ -53,9 +53,9 @@
   "dependencies": {
     "@sourceacademy/conductor": "^0.2.3",
     "@types/estree": "^1.0.0",
+    "@types/lodash": "^4.14.202",
     "fast-levenshtein": "^3.0.0",
     "js-slang": "^1.0.85",
-    "@types/lodash": "^4.14.202",
     "mathjs": "^14.4.0"
   }
 }
